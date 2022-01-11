@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./shara\ desert.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.fa-bars {
+  cursor: pointer;
+  margin-left: 40px;
+  color: white;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  height: 90%;
+}
+.col {
+  flex-basis: 50%;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: Serif;
+}
+p {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+}
+button {
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  padding: 12px 0;
+  margin-top: 30px;
+  border: 0;
+  background-color: white;
+}
+.box {
+  width: 230px;
+  height: 240px;
+  display: inline-block;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+h5 {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 5px black;
+}
+.box p {
+  font-size: 15px;
+}
+.box1 {
+  background-image: url("./pic-1.png");
+}
+.box2 {
+  background-image: url("./pic-2.png");
+}
+.box3 {
+  background-image: url("./pic-3.png");
+}
+.box4 {
+  background-image: url("./pic-4.png");
+}
+.box:hover {
+  transform: translateY(-10px);
+}
